@@ -8,12 +8,12 @@ import (
 
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/livekit-server/pkg/rtc"
-	"github.com/livekit/protocol/egress"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/livekit-server/pkg/rtc"
+	"github.com/abdulhaseeb08/protocol/egress"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/telemetry"
+	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
 )
 
 type EgressService struct {

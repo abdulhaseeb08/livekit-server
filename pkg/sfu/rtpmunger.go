@@ -3,9 +3,9 @@ package sfu
 import (
 	"fmt"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu/buffer"
+	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
 )
 
 //

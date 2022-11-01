@@ -7,13 +7,13 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/twitchtv/twirp"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/auth"
+	"github.com/abdulhaseeb08/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/routing/routingfakes"
-	"github.com/livekit/livekit-server/pkg/service"
-	"github.com/livekit/livekit-server/pkg/service/servicefakes"
+	"github.com/abdulhaseeb08/livekit-server/pkg/config"
+	"github.com/abdulhaseeb08/livekit-server/pkg/routing/routingfakes"
+	"github.com/abdulhaseeb08/livekit-server/pkg/service"
+	"github.com/abdulhaseeb08/livekit-server/pkg/service/servicefakes"
 )
 
 func TestDeleteRoom(t *testing.T) {

@@ -8,10 +8,10 @@ import (
 	"github.com/pion/webrtc/v3"
 	"go.uber.org/atomic"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu"
+	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
 )
 
 // wrapper around WebRTC receiver, overriding its ID

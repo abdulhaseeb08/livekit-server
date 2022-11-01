@@ -8,9 +8,9 @@ import (
 	"github.com/pion/sdp/v3"
 	"github.com/pion/webrtc/v3"
 
-	dd "github.com/livekit/livekit-server/pkg/sfu/dependencydescriptor"
-	"github.com/livekit/protocol/livekit"
-	lksdp "github.com/livekit/protocol/sdp"
+	dd "github.com/abdulhaseeb08/livekit-server/pkg/sfu/dependencydescriptor"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	lksdp "github.com/abdulhaseeb08/protocol/sdp"
 )
 
 func (p *ParticipantImpl) setCodecPreferencesForPublisher(offer webrtc.SessionDescription) webrtc.SessionDescription {

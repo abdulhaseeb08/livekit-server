@@ -9,10 +9,10 @@ import (
 	"github.com/go-logr/logr"
 	"github.com/pion/webrtc/v3"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
+	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
 )
 
 const (

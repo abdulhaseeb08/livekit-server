@@ -23,7 +23,7 @@ import (
 
 	"github.com/twitchtv/twirp"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/logger"
 )
 
 var (
@@ -106,7 +106,7 @@ func responseSent(ctx context.Context, requestLoggerPool *sync.Pool) {
 		r.fields = append(r.fields, "error", r.error.Msg())
 		r.fields = append(r.fields, "code", r.error.Code())
 	}
-	
+
 	serviceMethod := "API " + r.service + "." + r.method
 	r.logger.Infow(serviceMethod, r.fields...)
 

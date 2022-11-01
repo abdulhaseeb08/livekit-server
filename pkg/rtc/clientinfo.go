@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/livekit"
 )
 
 type ClientInfo struct {

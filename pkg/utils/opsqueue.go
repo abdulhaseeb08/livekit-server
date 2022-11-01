@@ -3,7 +3,7 @@ package utils
 import (
 	"sync"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/logger"
 )
 
 type OpsQueue struct {

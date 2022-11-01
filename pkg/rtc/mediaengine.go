@@ -6,8 +6,8 @@ import (
 
 	"github.com/pion/webrtc/v3"
 
-	"github.com/livekit/livekit-server/pkg/sfu"
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
+	"github.com/abdulhaseeb08/protocol/livekit"
 )
 
 var opusCodecCapability = webrtc.RTPCodecCapability{MimeType: webrtc.MimeTypeOpus, ClockRate: 48000, Channels: 2, SDPFmtpLine: "minptime=10;useinbandfec=1"}

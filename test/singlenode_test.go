@@ -12,14 +12,14 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/thoas/go-funk"
 
-	"github.com/livekit/protocol/auth"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/auth"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/livekit-server/pkg/rtc"
-	"github.com/livekit/livekit-server/pkg/testutils"
-	testclient "github.com/livekit/livekit-server/test/client"
+	"github.com/abdulhaseeb08/livekit-server/pkg/config"
+	"github.com/abdulhaseeb08/livekit-server/pkg/rtc"
+	"github.com/abdulhaseeb08/livekit-server/pkg/testutils"
+	testclient "github.com/abdulhaseeb08/livekit-server/test/client"
 )
 
 func TestClientCouldConnect(t *testing.T) {

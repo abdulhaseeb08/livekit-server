@@ -5,9 +5,9 @@ import (
 
 	"github.com/pion/webrtc/v3"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/routing"
+	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
 )
 
 func (p *ParticipantImpl) getResponseSink() routing.MessageSink {

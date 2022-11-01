@@ -10,11 +10,11 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/livekit/protocol/ingress"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/abdulhaseeb08/protocol/ingress"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/utils"
 
-	"github.com/livekit/livekit-server/pkg/service"
+	"github.com/abdulhaseeb08/livekit-server/pkg/service"
 )
 
 func TestRoomInternal(t *testing.T) {

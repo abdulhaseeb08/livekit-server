@@ -4,9 +4,9 @@ package typesfakes
 import (
 	"sync"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/sfu"
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
+	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
+	"github.com/abdulhaseeb08/protocol/livekit"
 )
 
 type FakeSubscribedTrack struct {

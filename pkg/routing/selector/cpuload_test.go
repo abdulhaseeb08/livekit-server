@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/livekit"
 
-	"github.com/livekit/livekit-server/pkg/routing/selector"
+	"github.com/abdulhaseeb08/livekit-server/pkg/routing/selector"
 )
 
 func TestCPULoadSelector_SelectNode(t *testing.T) {

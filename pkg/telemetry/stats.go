@@ -1,8 +1,8 @@
 package telemetry
 
 import (
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
+	"github.com/abdulhaseeb08/protocol/livekit"
 )
 
 func (t *telemetryService) TrackStats(streamType livekit.StreamType, participantID livekit.ParticipantID, trackID livekit.TrackID, stat *livekit.AnalyticsStat) {

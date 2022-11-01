@@ -5,9 +5,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/sfu/testutils"
+	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/testutils"
 )
 
 func newRTPMunger() *RTPMunger {

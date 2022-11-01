@@ -3,7 +3,7 @@ package buffer
 import (
 	"container/list"
 
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/logger"
 )
 
 var minFramesForCalculation = [DefaultMaxLayerTemporal + 1]int{8, 15, 40}

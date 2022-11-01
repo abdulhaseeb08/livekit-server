@@ -1,12 +1,12 @@
 package rtc
 
 import (
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/utils"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/utils"
 
-	"github.com/livekit/livekit-server/pkg/rtc/types"
-	"github.com/livekit/livekit-server/pkg/rtc/types/typesfakes"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
+	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
+	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types/typesfakes"
+	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
 )
 
 func init() {

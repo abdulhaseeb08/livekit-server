@@ -7,10 +7,10 @@ import (
 
 	"github.com/gammazero/workerpool"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
-	"github.com/livekit/protocol/webhook"
+	"github.com/abdulhaseeb08/livekit-server/pkg/config"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/webhook"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . TelemetryService

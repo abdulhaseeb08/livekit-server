@@ -1,7 +1,7 @@
 package selector
 
 import (
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/livekit"
 )
 
 // CPULoadSelector eliminates nodes that have CPU usage higher than CPULoadLimit

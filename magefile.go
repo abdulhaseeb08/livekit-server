@@ -13,7 +13,7 @@ import (
 
 	"github.com/magefile/mage/mg"
 
-	"github.com/livekit/livekit-server/version"
+	"github.com/abdulhaseeb08/livekit-server/version"
 	"github.com/livekit/mageutil"
 )
 

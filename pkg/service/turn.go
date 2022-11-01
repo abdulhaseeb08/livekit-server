@@ -9,13 +9,13 @@ import (
 	"github.com/pion/turn/v2"
 	"github.com/pkg/errors"
 
-	"github.com/livekit/protocol/livekit"
-	"github.com/livekit/protocol/logger"
+	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/logger"
 
-	"github.com/livekit/livekit-server/pkg/config"
-	logging "github.com/livekit/livekit-server/pkg/logger"
-	"github.com/livekit/livekit-server/pkg/telemetry"
-	"github.com/livekit/livekit-server/pkg/telemetry/prometheus"
+	"github.com/abdulhaseeb08/livekit-server/pkg/config"
+	logging "github.com/abdulhaseeb08/livekit-server/pkg/logger"
+	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
+	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
 )
 
 const (
