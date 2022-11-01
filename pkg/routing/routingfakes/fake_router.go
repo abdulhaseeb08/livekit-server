@@ -6,7 +6,7 @@ import (
 	"sync"
 
 	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/livekit/protocol/livekit"
+	"github.com/abdulhaseeb08/protocol/livekit"
 )
 
 type FakeRouter struct {
