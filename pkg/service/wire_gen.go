@@ -11,7 +11,6 @@ import (
 	"crypto/tls"
 	"fmt"
 	"os"
-
 	"github.com/abdulhaseeb08/livekit-server/pkg/clientconfiguration"
 	"github.com/abdulhaseeb08/livekit-server/pkg/config"
 	"github.com/abdulhaseeb08/livekit-server/pkg/routing"

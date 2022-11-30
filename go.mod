@@ -3,7 +3,7 @@ module github.com/abdulhaseeb08/livekit-server
 go 1.17
 
 require (
-	github.com/abdulhaseeb08/protocol v0.0.0-20221111153142-5c89face69df
+	github.com/abdulhaseeb08/protocol v0.0.0-20221130170037-2116cacd6170
 	github.com/bep/debounce v1.2.1
 	github.com/d5/tengo/v2 v2.13.0
 	github.com/dustin/go-humanize v1.0.0
