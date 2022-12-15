@@ -15,17 +15,17 @@ import (
 	"github.com/pkg/errors"
 	"gopkg.in/yaml.v3"
 
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/egress"
-	"github.com/abdulhaseeb08/protocol/ingress"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
-	"github.com/abdulhaseeb08/protocol/webhook"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/egress"
+	"github.com/carbonteq/protocol/ingress"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
+	"github.com/carbonteq/protocol/webhook"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/clientconfiguration"
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
+	"github.com/carbonteq/livekit-server/pkg/clientconfiguration"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/telemetry"
 )
 
 func InitializeServer(conf *config.Config, currentNode routing.LocalNode) (*LivekitServer, error) {

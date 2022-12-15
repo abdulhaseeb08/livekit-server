@@ -6,7 +6,7 @@ import (
 
 	"github.com/d5/tengo/v2"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 type Match interface {

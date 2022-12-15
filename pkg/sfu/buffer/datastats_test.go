@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/proto"
 )

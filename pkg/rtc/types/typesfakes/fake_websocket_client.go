@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
 )
 
 type FakeWebsocketClient struct {

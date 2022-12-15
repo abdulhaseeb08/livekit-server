@@ -3,11 +3,11 @@ package telemetry
 import (
 	"context"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 . AnalyticsService

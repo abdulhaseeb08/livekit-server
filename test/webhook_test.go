@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/require"
 	"google.golang.org/protobuf/encoding/protojson"
 
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
-	"github.com/abdulhaseeb08/protocol/utils"
-	"github.com/abdulhaseeb08/protocol/webhook"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
+	"github.com/carbonteq/protocol/utils"
+	"github.com/carbonteq/protocol/webhook"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
-	"github.com/abdulhaseeb08/livekit-server/pkg/testutils"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/service"
+	"github.com/carbonteq/livekit-server/pkg/testutils"
 )
 
 func TestWebhooks(t *testing.T) {

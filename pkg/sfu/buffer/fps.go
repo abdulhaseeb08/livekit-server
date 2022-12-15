@@ -3,7 +3,7 @@ package buffer
 import (
 	"container/list"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 var minFramesForCalculation = [DefaultMaxLayerTemporal + 1]int{8, 15, 40}

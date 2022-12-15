@@ -13,7 +13,7 @@ import (
 	"github.com/urfave/cli/v2"
 	"gopkg.in/yaml.v3"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 var DefaultStunServers = []string{

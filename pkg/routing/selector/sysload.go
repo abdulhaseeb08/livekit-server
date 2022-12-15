@@ -1,7 +1,7 @@
 package selector
 
 import (
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 // SystemLoadSelector eliminates nodes that surpass has a per-cpu node higher than SysloadLimit

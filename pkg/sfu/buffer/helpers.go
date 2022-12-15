@@ -4,7 +4,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 var (

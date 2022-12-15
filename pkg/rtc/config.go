@@ -10,11 +10,11 @@ import (
 	"github.com/pion/sdp/v3"
 	"github.com/pion/webrtc/v3"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	logging "github.com/abdulhaseeb08/livekit-server/pkg/logger"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	dd "github.com/abdulhaseeb08/livekit-server/pkg/sfu/dependencydescriptor"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	logging "github.com/carbonteq/livekit-server/pkg/logger"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	dd "github.com/carbonteq/livekit-server/pkg/sfu/dependencydescriptor"
+	"github.com/carbonteq/protocol/logger"
 )
 
 const (

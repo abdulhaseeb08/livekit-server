@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/testutils"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/sfu/testutils"
 )
 
 func compare(expected *VP8Munger, actual *VP8Munger) bool {

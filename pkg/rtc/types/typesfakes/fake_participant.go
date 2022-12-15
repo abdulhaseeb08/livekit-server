@@ -4,8 +4,8 @@ package typesfakes
 import (
 	"sync"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 type FakeParticipant struct {

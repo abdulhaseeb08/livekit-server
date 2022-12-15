@@ -8,19 +8,19 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
-	"github.com/abdulhaseeb08/livekit-server/version"
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
-	"github.com/abdulhaseeb08/protocol/utils"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/prometheus"
+	"github.com/carbonteq/livekit-server/version"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
+	"github.com/carbonteq/protocol/utils"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/clientconfiguration"
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc"
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
+	"github.com/carbonteq/livekit-server/pkg/clientconfiguration"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/rtc"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/livekit-server/pkg/telemetry"
 )
 
 const (

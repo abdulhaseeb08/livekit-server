@@ -7,12 +7,12 @@ import (
 	"github.com/pion/rtcp"
 	"github.com/pion/webrtc/v3"
 
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/sfu"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate
@@ -429,9 +429,7 @@ type SubscribedTrack interface {
 	UpdateVideoLayer()
 }
 
-//
 // Supervisor/operation monitor related definitions
-//
 type OperationMonitorEvent int
 
 const (

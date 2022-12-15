@@ -6,7 +6,7 @@ import (
 	"github.com/pion/webrtc/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 func TestIsCodecEnabled(t *testing.T) {

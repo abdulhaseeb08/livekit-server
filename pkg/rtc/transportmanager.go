@@ -11,12 +11,12 @@ import (
 	"github.com/pkg/errors"
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/livekit-server/pkg/sfu"
+	"github.com/carbonteq/livekit-server/pkg/telemetry"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 )
 
 const (

@@ -14,14 +14,14 @@ import (
 	"github.com/sebest/xff"
 	"github.com/ua-parser/uap-go/uaparser"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing/selector"
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/routing/selector"
+	"github.com/carbonteq/livekit-server/pkg/rtc"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/prometheus"
 )
 
 const (

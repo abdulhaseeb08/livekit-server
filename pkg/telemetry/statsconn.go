@@ -5,7 +5,7 @@ import (
 
 	"github.com/pion/turn/v2"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/prometheus"
 )
 
 type Listener struct {

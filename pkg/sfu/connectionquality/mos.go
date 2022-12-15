@@ -4,7 +4,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 	"github.com/livekit/rtcscore-go/pkg/rtcmos"
 )
 
@@ -108,13 +108,11 @@ func VideoTrackScore(params TrackScoreParams, normFactor float32) float32 {
 	return 0
 }
 
-//
 // rtcmos gives lower score when screen share content is static.
 // That is due to use of bits / pixel / frame in the model.
 // Even though the frame rate is low, the bit rate is also low and
 // the resolution is high. Till rtcmos model can be adapted to that
 // scenario, use loss based scoring.
-//
 func LossBasedTrackScore(params TrackScoreParams) float32 {
 	pctLoss := getLossPercentage(params.PacketsExpected, params.PacketsLost)
 	// No Loss, excellent

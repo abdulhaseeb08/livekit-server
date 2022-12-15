@@ -7,9 +7,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
 )
 
 func Test_sequencer(t *testing.T) {

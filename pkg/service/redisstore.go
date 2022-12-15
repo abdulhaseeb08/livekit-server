@@ -12,11 +12,11 @@ import (
 	"github.com/pkg/errors"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/abdulhaseeb08/livekit-server/version"
-	"github.com/abdulhaseeb08/protocol/ingress"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
-	"github.com/abdulhaseeb08/protocol/utils"
+	"github.com/carbonteq/livekit-server/version"
+	"github.com/carbonteq/protocol/ingress"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
+	"github.com/carbonteq/protocol/utils"
 )
 
 const (

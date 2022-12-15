@@ -6,7 +6,7 @@ import (
 
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 type StreamStatus int32

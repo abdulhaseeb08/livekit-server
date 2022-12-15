@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	dd "github.com/abdulhaseeb08/livekit-server/pkg/sfu/dependencydescriptor"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	dd "github.com/carbonteq/livekit-server/pkg/sfu/dependencydescriptor"
+	"github.com/carbonteq/protocol/logger"
 )
 
 type targetLayer struct {

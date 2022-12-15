@@ -6,13 +6,13 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing/routingfakes"
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
-	"github.com/abdulhaseeb08/livekit-server/pkg/service/servicefakes"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/routing/routingfakes"
+	"github.com/carbonteq/livekit-server/pkg/service"
+	"github.com/carbonteq/livekit-server/pkg/service/servicefakes"
 )
 
 func TestCreateRoom(t *testing.T) {

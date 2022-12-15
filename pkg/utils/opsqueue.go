@@ -3,7 +3,7 @@ package utils
 import (
 	"sync"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 type OpsQueue struct {

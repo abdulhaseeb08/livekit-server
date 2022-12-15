@@ -5,8 +5,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/livekit-server/pkg/service"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 type FakeIngressStore struct {

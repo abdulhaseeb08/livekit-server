@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/auth/authfakes"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/auth/authfakes"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
+	"github.com/carbonteq/livekit-server/pkg/service"
 )
 
 func TestAuthMiddleware(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/testutils"
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/livekit-server/pkg/testutils"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 func TestMissingAnswerDuringICERestart(t *testing.T) {

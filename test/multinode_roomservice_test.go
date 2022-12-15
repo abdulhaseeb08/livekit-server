@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/testutils"
+	"github.com/carbonteq/livekit-server/pkg/testutils"
 )
 
 func TestMultiNodeRoomList(t *testing.T) {

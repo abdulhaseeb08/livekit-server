@@ -6,7 +6,7 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
+	"github.com/carbonteq/livekit-server/pkg/service"
 )
 
 func redisClient() *redis.Client {

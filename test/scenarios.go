@@ -8,11 +8,11 @@ import (
 	"github.com/stretchr/testify/require"
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/testutils"
-	testclient "github.com/abdulhaseeb08/livekit-server/test/client"
+	"github.com/carbonteq/livekit-server/pkg/testutils"
+	testclient "github.com/carbonteq/livekit-server/test/client"
 )
 
 // a scenario with lots of clients connecting, publishing, and leaving at random periods

@@ -5,9 +5,9 @@ import (
 	"github.com/pion/logging"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/config"
 )
 
 var (

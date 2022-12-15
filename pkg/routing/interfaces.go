@@ -7,15 +7,16 @@ import (
 	"github.com/go-redis/redis/v8"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate
 
 // MessageSink is an abstraction for writing protobuf messages and having them read by a MessageSource,
 // potentially on a different node via a transport
+//
 //counterfeiter:generate . MessageSink
 type MessageSink interface {
 	WriteMessage(msg proto.Message) error
@@ -57,6 +58,7 @@ type RTCMessageCallback func(
 )
 
 // Router allows multiple nodes to coordinate the participant session
+//
 //counterfeiter:generate . Router
 type Router interface {
 	MessageRouter

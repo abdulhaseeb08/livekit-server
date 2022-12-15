@@ -14,15 +14,15 @@ import (
 	"github.com/pion/webrtc/v3"
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/audio"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/livekit-server/pkg/sfu/audio"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 	"github.com/livekit/mediatransportutil"
 	"github.com/livekit/mediatransportutil/pkg/bucket"
 	"github.com/livekit/mediatransportutil/pkg/nack"
 	"github.com/livekit/mediatransportutil/pkg/twcc"
 
-	dd "github.com/abdulhaseeb08/livekit-server/pkg/sfu/dependencydescriptor"
+	dd "github.com/carbonteq/livekit-server/pkg/sfu/dependencydescriptor"
 )
 
 const (

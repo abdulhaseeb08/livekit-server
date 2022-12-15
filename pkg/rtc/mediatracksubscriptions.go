@@ -10,13 +10,13 @@ import (
 	"github.com/pion/webrtc/v3/pkg/rtcerr"
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/livekit-server/pkg/sfu"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/telemetry"
 )
 
 var (

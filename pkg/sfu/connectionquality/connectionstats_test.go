@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/protocol/livekit"
 	"github.com/stretchr/testify/require"
 )
 

@@ -23,7 +23,7 @@ import (
 
 	"github.com/twitchtv/twirp"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 var (

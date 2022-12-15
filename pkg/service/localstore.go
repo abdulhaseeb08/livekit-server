@@ -7,7 +7,7 @@ import (
 
 	"github.com/thoas/go-funk"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 // encapsulates CRUD operations for room settings

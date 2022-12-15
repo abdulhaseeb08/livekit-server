@@ -11,18 +11,18 @@ import (
 	"github.com/go-redis/redis/v8"
 	"github.com/twitchtv/twirp"
 
-	"github.com/abdulhaseeb08/protocol/auth"
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
-	"github.com/abdulhaseeb08/protocol/utils"
+	"github.com/carbonteq/protocol/auth"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
+	"github.com/carbonteq/protocol/utils"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	serverlogger "github.com/abdulhaseeb08/livekit-server/pkg/logger"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
-	"github.com/abdulhaseeb08/livekit-server/pkg/testutils"
-	testclient "github.com/abdulhaseeb08/livekit-server/test/client"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	serverlogger "github.com/carbonteq/livekit-server/pkg/logger"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/service"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/prometheus"
+	"github.com/carbonteq/livekit-server/pkg/testutils"
+	testclient "github.com/carbonteq/livekit-server/test/client"
 )
 
 const (

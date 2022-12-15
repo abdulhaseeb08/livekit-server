@@ -4,12 +4,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
 	"github.com/bep/debounce"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
-	"github.com/abdulhaseeb08/livekit-server/pkg/utils"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/livekit-server/pkg/utils"
 )
 
 type DynacastManagerParams struct {
@@ -84,22 +84,18 @@ func (d *DynacastManager) Close() {
 	}
 }
 
-//
 // THere are situations like track unmute or streaming from a sifferent node
 // where subscribed quality needs to sent to the provider immediately.
 // This bypasses any debouncing and forces a subscribed quality update
 // with immediate effect.
-//
 func (d *DynacastManager) ForceUpdate() {
 	d.update(true)
 }
 
-//
 // It is possible for tracks to be in pending close state. When track
 // is waiting to be closed, a node is not streaming a track. This can
 // be used to force an update announcing that subscribed quality is OFF,
 // i.e. indicating not pulling track any more.
-//
 func (d *DynacastManager) ForceQuality(quality livekit.VideoQuality) {
 	d.lock.Lock()
 	defer d.lock.Unlock()

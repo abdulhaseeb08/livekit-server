@@ -1,10 +1,10 @@
-module github.com/abdulhaseeb08/livekit-server
+module github.com/carbonteq/livekit-server
 
 go 1.17
 
 require (
-	github.com/abdulhaseeb08/protocol v0.0.0-20221130170037-2116cacd6170
 	github.com/bep/debounce v1.2.1
+	github.com/carbonteq/protocol v0.0.0-20221215115759-5468f4df4986
 	github.com/d5/tengo/v2 v2.13.0
 	github.com/dustin/go-humanize v1.0.0
 	github.com/elliotchance/orderedmap v1.5.0

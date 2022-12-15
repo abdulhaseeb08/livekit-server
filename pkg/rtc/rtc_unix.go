@@ -7,7 +7,7 @@ import (
 	"net"
 	"syscall"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 )
 
 func checkUDPReadBuffer() {

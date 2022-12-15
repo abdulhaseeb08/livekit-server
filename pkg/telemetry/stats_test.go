@@ -7,11 +7,11 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/livekit-server/pkg/telemetry"
+	"github.com/carbonteq/protocol/livekit"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/telemetryfakes"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/prometheus"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/telemetryfakes"
 )
 
 func init() {

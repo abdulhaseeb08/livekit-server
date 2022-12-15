@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 )
 
 //go:generate go run github.com/maxbrunsfeld/counterfeiter/v6 -generate

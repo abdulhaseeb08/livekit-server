@@ -7,7 +7,7 @@ import (
 	"github.com/pion/webrtc/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
 )
 
 const tsStep = uint32(48000 / 1000 * 10)

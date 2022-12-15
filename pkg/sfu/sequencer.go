@@ -5,9 +5,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
 )
 
 const (

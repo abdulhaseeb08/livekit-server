@@ -12,14 +12,14 @@ import (
 	"github.com/pion/webrtc/v3"
 	"go.uber.org/atomic"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 	"github.com/livekit/mediatransportutil/pkg/twcc"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/audio"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/connectionquality"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/sfu/audio"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/sfu/connectionquality"
 )
 
 var (

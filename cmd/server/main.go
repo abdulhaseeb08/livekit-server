@@ -13,14 +13,14 @@ import (
 
 	"github.com/urfave/cli/v2"
 
-	serverlogger "github.com/abdulhaseeb08/livekit-server/pkg/logger"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry/prometheus"
-	"github.com/abdulhaseeb08/protocol/logger"
+	serverlogger "github.com/carbonteq/livekit-server/pkg/logger"
+	"github.com/carbonteq/livekit-server/pkg/telemetry/prometheus"
+	"github.com/carbonteq/protocol/logger"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/routing"
-	"github.com/abdulhaseeb08/livekit-server/pkg/service"
-	"github.com/abdulhaseeb08/livekit-server/version"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/routing"
+	"github.com/carbonteq/livekit-server/pkg/service"
+	"github.com/carbonteq/livekit-server/version"
 )
 
 var baseFlags = []cli.Flag{

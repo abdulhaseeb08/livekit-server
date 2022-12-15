@@ -10,15 +10,15 @@ import (
 	"go.uber.org/atomic"
 	"google.golang.org/protobuf/proto"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
-	"github.com/abdulhaseeb08/protocol/logger"
+	"github.com/carbonteq/protocol/livekit"
+	"github.com/carbonteq/protocol/logger"
 	"github.com/livekit/mediatransportutil/pkg/twcc"
 
-	"github.com/abdulhaseeb08/livekit-server/pkg/config"
-	"github.com/abdulhaseeb08/livekit-server/pkg/rtc/types"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu"
-	"github.com/abdulhaseeb08/livekit-server/pkg/sfu/buffer"
-	"github.com/abdulhaseeb08/livekit-server/pkg/telemetry"
+	"github.com/carbonteq/livekit-server/pkg/config"
+	"github.com/carbonteq/livekit-server/pkg/rtc/types"
+	"github.com/carbonteq/livekit-server/pkg/sfu"
+	"github.com/carbonteq/livekit-server/pkg/sfu/buffer"
+	"github.com/carbonteq/livekit-server/pkg/telemetry"
 )
 
 // MediaTrack represents a WebRTC track that needs to be forwarded

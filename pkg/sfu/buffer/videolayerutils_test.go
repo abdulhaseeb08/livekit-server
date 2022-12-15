@@ -3,7 +3,7 @@ package buffer
 import (
 	"testing"
 
-	"github.com/abdulhaseeb08/protocol/livekit"
+	"github.com/carbonteq/protocol/livekit"
 	"github.com/stretchr/testify/require"
 )
 
